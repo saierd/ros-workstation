@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Dynamic Reconfigure
+GenericName=Dynamic Reconfiguration Tool
+Comment=Configuration Tool for ROS Node Parameters
+
+Icon=ros-tool
+
+Exec=bash -i /usr/share/ros-system-workstation/dynamic-reconfigure
+Terminal=false
+
+Categories=Development;Science;Education;
+X-Ubuntu-Category-Secondary=Robotics;
+StartupNotify=true
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

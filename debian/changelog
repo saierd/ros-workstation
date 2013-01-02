@@ -1,0 +1,58 @@
+ros-system-workstation-groovy (0.0.2) precise; urgency=low
+
+  * debian/changelog
+
+ -- I Heart Engineering <code@iheartengineering.com>  Wed, 15 Aug 2012 07:56:23 -0400
+
+ros-system-workstation-groovy (0.0.2~1.gbp8aca05) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @8aca05e99452d66c33b8af4c330e91d1b1650c91 **
+
+  * Minor edits for style
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 18:34:52 -0400
+
+ros-system-workstation-groovy (0.0.2~1.gbp8d9af9) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @8d9af9e012689bf75b78e73b70ed33d7044fe395 **
+
+  * Depending on python-rosdep & python-rosinstall
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 10:25:42 -0400
+
+ros-system-workstation-groovy (0.0.2~1.gbpbe91b5) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @be91b56fc518f8bff5a13193687afd230750802e **
+
+  * Fixes to pass desktop-file-validate
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 06:00:08 -0400
+
+ros-system-workstation-groovy (0.0.2~1.gbp35ab31) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @35ab3100509cb2e847f3bf033b581123050a2f97 **
+
+  * Additional fixes for Exec issues
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 05:50:03 -0400
+
+ros-system-workstation-groovy (0.0.2~1.gbpd05c46) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @d05c4667d8ed457c14d0ecce637fbdb10bbe70dd **
+
+  * Text formatting for Unity launcher items
+  * Dropping gazebo support for now, working to patch #2 and #3
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 13 Aug 2012 05:08:50 -0400
+
+ros-system-workstation-groovy (0.0.1) precise; urgency=low
+
+  * Initial release!
+
+ -- I Heart Engineering <code@iheartengineering.com>  Thu, 26 Jul 2012 20:06:36 -0400
+
+ros-system-workstation-groovy (0.0.1) unstable; urgency=low
+
+  * source package automatically created by stdeb 0.6.0+git
+
+ -- I Heart Engineering <code@iheartengineering.com>  Wed, 25 Jul 2012 14:29:58 -0400

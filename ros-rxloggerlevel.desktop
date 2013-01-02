@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=rxloggerlevel
+GenericName=Log Level Manager
+Comment=ROS Log Level Manager
+
+Icon=ros-rx
+
+Exec=bash -i /usr/share/ros-system-workstation/rxloggerlevel
+Terminal=false
+
+Categories=Development;Science;Education;
+X-Ubuntu-Category-Secondary=Robotics;
+StartupNotify=true
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
