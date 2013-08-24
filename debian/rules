@@ -15,6 +15,6 @@ binary-indep: build
 
 
 override_dh_auto_install:
-	python setup.py install --root=debian/ros-system-workstation-groovy --install-layout=deb --install-lib=/usr/share/ros-system-workstation-groovy --install-scripts=/usr/share/ros-system-workstation-groovy
+	python setup.py install --root=debian/ros-system-workstation-hydro --install-layout=deb --install-lib=/usr/share/ros-system-workstation-hydro --install-scripts=/usr/share/ros-system-workstation-hydro
 override_dh_auto_build:
 

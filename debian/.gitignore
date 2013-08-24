@@ -1,5 +1,5 @@
-ros-system-workstation-groovy/
+ros-system-workstation-hydro/
 *.debhelper
-ros-system-workstation-groovy.debhelper.log
-ros-system-workstation-groovy.substvars
+ros-system-workstation-hydro.debhelper.log
+ros-system-workstation-hydro.substvars
 files
