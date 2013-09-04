@@ -1,12 +1,13 @@
 [Desktop Entry]
-Name=rxbag
-GenericName=Bag Viewer
-Comment=Bag file viewer for ROS
+Name=RQt Bag
+GenericName=RQt Bag Tool
+Comment=Management Tool for ROS Bags
 
-Icon=ros-rx
+Icon=ros-rqt
 
-Exec=bash -i -c "zenity --title=\"rxbag\" --file-selection --multiple --separator=\" \" | xargs rxbag"
+Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_bag/rqt_bag %u"
 Terminal=false
+MimeType=application/x-ros-launch;
 
 Categories=Development;Science;Education;
 X-Ubuntu-Category-Secondary=Robotics;

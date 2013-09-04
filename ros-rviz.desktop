@@ -1,11 +1,12 @@
 [Desktop Entry]
-Name=rviz
+Name=RViz
 GenericName=3D Robotics Visualization Tool
 Comment=3D Data Visualization tool for ROS
 
 Icon=ros-rviz
 
-Exec=bash -i /usr/share/ros-system-workstation/rviz
+Exec=/bin/bash -i -c "rosrun rviz rviz"
+
 Terminal=false
 
 Categories=Development;Science;Education;

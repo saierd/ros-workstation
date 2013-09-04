@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=roscore
-GenericName=ROS Core
-Comment=Provides the required nodes for running ROS
+Name=RQt Image View
+GenericName=RQt Image Viewer
+Comment=Image Viewer for ROS
 
-Icon=ros-tool
+Icon=ros-rqt
 
-Exec=/bin/bash -i -c "roscore"
-Terminal=true
+Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_image_view/rqt_image_view"
+Terminal=false
 
 Categories=Development;Science;Education;
 X-Ubuntu-Category-Secondary=Robotics;

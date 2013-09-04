@@ -5,7 +5,8 @@ Comment=Gazebo 3D simulator for Robotics
 
 Icon=ros-tool
 
-Exec=bash -i -c "roslaunch gazebo_worlds empty_world.launch"
+Exec=/bin/bash -i -c "roslaunch gazebo_ros empty_world.launch"
+
 Terminal=false
 
 Categories=Development;Science;Education;

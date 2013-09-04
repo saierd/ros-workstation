@@ -5,7 +5,7 @@ Comment=Provides the required nodes for running ROS
 
 Icon=ros-tool
 Keywords=Science;Education;Robotics;Robot;
-Exec=bash -c "source /opt/ros/hydro/setup.bash && roslaunch %u"
+Exec=/bin/bash -i -c "roslaunch %u"
 Terminal=true
 MimeType=application/x-ros-launch;
 

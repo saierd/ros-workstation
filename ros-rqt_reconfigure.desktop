@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=roscore
-GenericName=ROS Core
-Comment=Provides the required nodes for running ROS
+Name=RQt Reconfigure
+GenericName=RQt Reconfiguration Tool
+Comment=Configuration Tool for ROS Node Parameters
 
-Icon=ros-tool
+Icon=ros-rqt
 
-Exec=/bin/bash -i -c "roscore"
-Terminal=true
+Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_reconfigure/rqt_reconfigure"
+Terminal=false
 
 Categories=Development;Science;Education;
 X-Ubuntu-Category-Secondary=Robotics;

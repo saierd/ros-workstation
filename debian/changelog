@@ -1,3 +1,14 @@
+ros-system-workstation-hydro (0.0.3~1.gbp535374) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @535374393f707466e21c104f324f26f405824a5d **
+
+  [ lucid ]
+  * UNRELEASED
+
+  [ I Heart Engineering ]
+
+ -- I Heart Engineering <code@iheartengineering.com>  Fri, 23 Aug 2013 23:35:00 -0400
+
 ros-system-workstation-hydro (0.0.2) precise; urgency=low
 
   * debian/changelog

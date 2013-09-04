@@ -6,3 +6,10 @@ This package provides
  * a set of GUI desktop wrappers for common ROS tools
  * supports mime types for .launch files
  * ROS icons
+
+Desktop files can be validated using 
+ `desktop-file-validate	
+rqt_top may require
+B
+ `sudo pip install --upgrade psutil
+

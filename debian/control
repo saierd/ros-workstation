@@ -7,6 +7,6 @@ Standards-Version: 3.9.3
 
 Package: ros-system-workstation-hydro
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, ros-groovy-ros, python-rosinstall, python-rosdep
+Depends: ${misc:Depends}, ${python:Depends}, ros-hydro-ros, ros-hydro-rqt-common-plugins, python-rosinstall, python-rosdep
 Description: ROS Workstation
  ROS Workstation Environment

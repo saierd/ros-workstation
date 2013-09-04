@@ -1,12 +1,11 @@
 [Desktop Entry]
-Name=rxconsole
-GenericName=Console Log Viewer
-Comment=ROS graphical console
+Name=RQt Launch
+GenericName=RQt Launch Tool
+Comment=Launch Management Tool for ROS
 
-Icon=ros-rx
+Icon=ros-rqt
 
-
-Exec=bash -i /usr/share/ros-system-workstation/rxconsole
+Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_launch/rqt_launch"
 Terminal=false
 
 Categories=Development;Science;Education;

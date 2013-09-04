@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=rxloggerlevel
-GenericName=Log Level Manager
-Comment=ROS Log Level Manager
+Name=RQt Graph
+GenericName=RQt Graph Viewer
+Comment=Computational Graph Viewer for ROS
 
-Icon=ros-rx
+Icon=ros-rqt
 
-Exec=bash -i /usr/share/ros-system-workstation/rxloggerlevel
+Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_graph/rqt_graph"
 Terminal=false
 
 Categories=Development;Science;Education;
