@@ -4,6 +4,7 @@ GenericName=3D Robotics Visualization Tool
 Comment=3D Data Visualization tool for ROS
 
 Icon=ros-rviz
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-rviz.svg
 
 Exec=/bin/bash -i -c "rosrun rviz rviz"
 

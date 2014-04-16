@@ -4,8 +4,9 @@ GenericName=RQt Logger Level Tool
 Comment=Logger Level Configuration Tool for ROS
 
 Icon=ros-rqt
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-rqt.svg
 
-Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_logger_level/rqt_logger_level"
+Exec=/bin/bash -i -c "rosrun rqt_logger_level rqt_logger_level"
 Terminal=false
 
 Categories=Development;Science;Education;

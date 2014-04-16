@@ -4,6 +4,7 @@ GenericName=Dynamic Reconfiguration Tool
 Comment=Configuration Tool for ROS Node Parameters
 
 Icon=ros-tool
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-tool.svg
 
 Exec=bash -i /usr/share/ros-system-workstation/dynamic-reconfigure
 Terminal=false

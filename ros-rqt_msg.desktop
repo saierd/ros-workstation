@@ -4,8 +4,9 @@ GenericName=RQt Message Information Tool
 Comment=Message Information Tool for ROS
 
 Icon=ros-rqt
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-rqt.svg
 
-Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_msg/rqt_msg"
+Exec=/bin/bash -i -c "rosrun rqt_msg rqt_msg"
 Terminal=false
 
 Categories=Development;Science;Education;

@@ -4,6 +4,8 @@ GenericName=ROS Launch
 Comment=Provides the required nodes for running ROS
 
 Icon=ros-tool
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-tool.svg
+
 Keywords=Science;Education;Robotics;Robot;
 Exec=/bin/bash -i -c "roslaunch %u"
 Terminal=true

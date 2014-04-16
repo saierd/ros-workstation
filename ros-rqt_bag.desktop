@@ -4,10 +4,11 @@ GenericName=RQt Bag Tool
 Comment=Management Tool for ROS Bags
 
 Icon=ros-rqt
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-rqt.svg
 
-Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_bag/rqt_bag %u"
+Exec=/bin/bash -i -c "rosrun rqt_bag rqt_bag %u"
 Terminal=false
-MimeType=application/x-ros-launch;
+MimeType=application/x-ros-bag;
 
 Categories=Development;Science;Education;
 X-Ubuntu-Category-Secondary=Robotics;

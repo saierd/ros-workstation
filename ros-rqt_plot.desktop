@@ -4,8 +4,9 @@ GenericName=RQt Plot Tool
 Comment=Plotting Tool for ROS
 
 Icon=ros-rqt
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-rqt.svg
 
-Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_plot/rqt_plot"
+Exec=/bin/bash -i -c "rosrun rqt_plot rqt_plot"
 Terminal=false
 
 Categories=Development;Science;Education;

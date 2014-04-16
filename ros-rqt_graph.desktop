@@ -4,8 +4,9 @@ GenericName=RQt Graph Viewer
 Comment=Computational Graph Viewer for ROS
 
 Icon=ros-rqt
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-rqt.svg
 
-Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_graph/rqt_graph"
+Exec=/bin/bash -i -c "rosrun rqt_graph rqt_graph"
 Terminal=false
 
 Categories=Development;Science;Education;

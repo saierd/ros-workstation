@@ -4,6 +4,7 @@ GenericName=ROS Core
 Comment=Provides the required nodes for running ROS
 
 Icon=ros-tool
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-tool.svg
 
 Exec=/bin/bash -i -c "roscore"
 Terminal=true

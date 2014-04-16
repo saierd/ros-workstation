@@ -4,8 +4,9 @@ GenericName=RQt Graphical Console
 Comment=Console Log Viewer for ROS
 
 Icon=ros-rqt
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-rqt.svg
 
-Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_console/rqt_console"
+Exec=/bin/bash -i -c "rosrun rqt_console rqt_console"
 Terminal=false
 
 Categories=Development;Science;Education;

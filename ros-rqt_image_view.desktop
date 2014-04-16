@@ -4,8 +4,9 @@ GenericName=RQt Image Viewer
 Comment=Image Viewer for ROS
 
 Icon=ros-rqt
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-rqt.svg
 
-Exec=/bin/bash -i -c "/opt/ros/hydro/lib/rqt_image_view/rqt_image_view"
+Exec=/bin/bash -i -c "rosrun rqt_image_view rqt_image_view"
 Terminal=false
 
 Categories=Development;Science;Education;
