@@ -1,8 +1,8 @@
-These are system level files to support ROS Fuerte workstations. Only tested in Cinnamon, but should work decently in Unity and others as well. The package provides a set of desktop files for common ROS tools and a mime type for `.launch` files.
+This package provides a set of desktop files for common ROS Fuerte tools and a mime type for `.launch` files. Only tested in Cinnamon, but should work decently in Unity and others as well.
 
-This is a fork from [TurtleBot-Mfg's hydro repository](https://github.com/TurtleBot-Mfg/ros-system-workstation-hydro). Credit belongs to him, I only changed the paths and deleted stuff that didn't work with Fuerte.
+It is a fork of [TurtleBot-Mfg's hydro repository](https://github.com/TurtleBot-Mfg/ros-system-workstation-hydro). Credit belongs to him, I only changed the paths and deleted stuff that didn't work with Fuerte.
 
-# Installation
+## Installation
 
 Install by executing
 
