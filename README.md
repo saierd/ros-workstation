@@ -4,7 +4,15 @@ It is a fork of [TurtleBot-Mfg's hydro repository](https://github.com/TurtleBot-
 
 ## Installation
 
-Install by executing
+If you want to install shortcuts for the PR2 robot you can state
+
+```python
+install_pr2 = True
+```
+
+in `setup.py`.
+
+Then you can install by executing
 
 ```shell
 sudo python setup.py install --record record.txt

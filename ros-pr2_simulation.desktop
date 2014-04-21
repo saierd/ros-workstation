@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=PR2 Simulation
+GenericName=PR2 Simulation
+Comment=PR2 Simulation
+
+Icon=ros-tool
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-tool.svg
+
+Exec=/bin/bash -i -c "roslaunch pr2_gazebo pr2_empty_world.launch"
+Terminal=true
+
+Categories=Development;Science;Education;
+X-Ubuntu-Category-Secondary=Robotics;
+StartupNotify=true
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=PR2 Dashboard
+GenericName=PR2 Dashboard
+Comment=PR2 Dashboard
+
+Icon=ros-tool
+Icon=/usr/share/icons/hicolor/scalable/apps/ros-tool.svg
+
+Exec=/bin/bash -i -c "rosrun rqt_pr2_dashboard rqt_pr2_dashboard"
+Terminal=false
+
+Categories=Development;Science;Education;
+X-Ubuntu-Category-Secondary=Robotics;
+StartupNotify=true
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
