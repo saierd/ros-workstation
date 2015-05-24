@@ -1,4 +1,4 @@
-This package provides a set of desktop files for common ROS tools and a mime type for `.launch` files. It should work with Ubuntu and most ROS versions.
+This package provides a set of shortcuts for common ROS tools and a mime type for `.launch` files. It should work with Ubuntu and most ROS versions.
 
 It is a fork of [this repository for ROS Hydro](https://github.com/TurtleBot-Mfg/ros-system-workstation-hydro). Credit belongs to them, I only changed the shortcuts to work with other ROS versions.
 
@@ -13,7 +13,7 @@ sudo update-mime-database /usr/share/mime
 
 ## Uninstall
 
-The command above saves a list of installed files to the file `record.txt`. As long as you keep this file you can uninstall all the shortcuts with
+The command above saves a list of installed files to the file `record.txt`. As long as you keep this file you can uninstall it with
 
 ```shell
 cat record.txt | sudo xargs rm -rf
@@ -26,6 +26,4 @@ If you want to install shortcuts for the PR2 robot you can modify the following 
 ```python
 install_pr2 = True
 ```
-
-
 
