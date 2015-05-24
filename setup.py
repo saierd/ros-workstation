@@ -1,6 +1,4 @@
 from distutils.core import setup
-import os
-import subprocess
 
 install_pr2 = False
 
@@ -23,21 +21,22 @@ files_to_install = [('/usr/share/applications', ["ros-rqt_console.desktop"]),
                     ('/usr/share/icons/hicolor/scalable/apps',["pixmaps/application-x-ros-bag.svg"]),
                     ('/usr/share/icons/hicolor/scalable/apps',["pixmaps/ros-rviz.svg"]),
                     ('/usr/share/icons/hicolor/scalable/apps',["pixmaps/ros-rqt.svg"]),
-                    ('/usr/share/icons/hicolor/scalable/apps',["pixmaps/ros-tool.svg"]),
+                    ('/usr/share/icons/hicolor/scalable/apps',["pixmaps/ros-tool.svg"])
                    ]
 
 if install_pr2:
-    files_to_install.append(('/usr/share/applications', ["ros-rqt_pr2_dashboard.desktop"]))
-    files_to_install.append(('/usr/share/applications', ["ros-pr2_simulation.desktop"]))
+    files_to_install.extend([('/usr/share/applications', ["ros-rqt_pr2_dashboard.desktop"]),
+                             ('/usr/share/applications', ["ros-pr2_simulation.desktop"])
+                            ])
 
-setup(name = "ros-system-workstation",
+setup(name = "ros-workstation",
     version = "0.0.1",
     description = "ROS Workstation",
-    author = "I Heart Engineering",
-    author_email = "code@iheartengineering.com",
-    url = "http://www.iheartengineering.com",
+    author = "I Heart Engineering, Daniel Saier",
+    author_email = "code@iheartengineering.com, mail@danielsaier.de",
+    url = "https://github.com/saierd/ros-workstation",
     license = "BSD-3-clause",
     data_files = files_to_install,
-    long_description = """ROS Workstation Environment"""
+    long_description = "Desktop Shortcuts for ROS tools."
 )
 
