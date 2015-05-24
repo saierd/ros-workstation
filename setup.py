@@ -2,32 +2,49 @@ from distutils.core import setup
 
 install_pr2 = False
 
-files_to_install = [('/usr/share/applications', ["desktop-files/ros-rqt_console.desktop"]),
-                    ('/usr/share/applications', ["desktop-files/ros-rqt_graph.desktop"]),
-                    ('/usr/share/applications', ["desktop-files/ros-rqt_image_view.desktop"]),
-                    ('/usr/share/applications', ["desktop-files/ros-rqt_logger_level.desktop"]),
-                    ('/usr/share/applications', ["desktop-files/ros-rqt_msg.desktop"]),
-                    ('/usr/share/applications', ["desktop-files/ros-rqt_plot.desktop"]),
-                    ('/usr/share/applications', ["desktop-files/ros-rviz.desktop"]),
-                    ('/usr/share/applications', ["desktop-files/ros-roscore.desktop"]),
-                    ('/usr/share/applications', ["desktop-files/ros-roslaunch.desktop"]),
-                    ('/usr/share/mime-info', ["mime-types/ros-roslaunch.mime"]),
-                    ('/usr/share/mime/packages', ["mime-types/ros-roslaunch.xml"]),
-                    ('/usr/share/applications', ["desktop-files/ros-rqt_bag.desktop"]),
-                    ('/usr/share/mime-info', ["mime-types/ros-rqt_bag.mime"]),
-                    ('/usr/share/mime/packages', ["mime-types/ros-rqt_bag.xml"]),
-                    ('/usr/share/desktop-directories', ["Robotics.directory"]),
-                    ('/usr/share/icons/hicolor/scalable/apps',["icons/application-x-ros-launch.svg"]),
-                    ('/usr/share/icons/hicolor/scalable/apps',["icons/application-x-ros-bag.svg"]),
-                    ('/usr/share/icons/hicolor/scalable/apps',["icons/ros-rviz.svg"]),
-                    ('/usr/share/icons/hicolor/scalable/apps',["icons/ros-rqt.svg"]),
-                    ('/usr/share/icons/hicolor/scalable/apps',["icons/ros-tool.svg"])
-                   ]
+desktop_files = ["ros-rqt_console.desktop",
+                 "ros-rqt_graph.desktop",
+                 "ros-rqt_image_view.desktop",
+                 "ros-rqt_logger_level.desktop",
+                 "ros-rqt_msg.desktop",
+                 "ros-rqt_plot.desktop",
+                 "ros-rviz.desktop",
+                 "ros-roscore.desktop",
+                 "ros-roslaunch.desktop",
+                 "ros-rqt_bag.desktop"
+                ]
 
 if install_pr2:
-    files_to_install.extend([('/usr/share/applications', ["ros-rqt_pr2_dashboard.desktop"]),
-                             ('/usr/share/applications', ["ros-pr2_simulation.desktop"])
-                            ])
+    desktop_files.extend(["ros-rqt_pr2_dashboard.desktop",
+                          "ros-pr2_simulation.desktop"
+                         ])
+
+mime_types = ["ros-roslaunch",
+              "ros-rqt_bag"
+             ]
+
+icons = ["application-x-ros-launch.svg",
+         "application-x-ros-bag.svg",
+         "ros-rviz.svg",
+         "ros-rqt.svg",
+         "ros-tool.svg"
+        ]
+
+
+files_to_install = []
+
+for f in desktop_files:
+    files_to_install.append(("/usr/share/applications", ["desktop-files/" + f]))
+    
+for m in mime_types:
+    files_to_install.append(("/usr/share/mime-info", ["mime-types/" + m + ".mime"]))
+    files_to_install.append(("/usr/share/mime/packages", ["mime-types/" + m + ".xml"]))
+
+for f in icons:
+    files_to_install.append(("/usr/share/icons/hicolor/scalable/apps", ["icons/" + f]))
+
+files_to_install.append(('/usr/share/desktop-directories', ["Robotics.directory"]))
+
 
 setup(name = "ros-workstation",
     version = "0.0.1",
