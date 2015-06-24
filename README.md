@@ -1,4 +1,4 @@
-This package provides a set of shortcuts for common ROS tools and a mime type for `.launch` files. It should work with Ubuntu and most ROS versions.
+This package provides a set of desktop shortcuts for common [ROS](http://www.ros.org/) tools and a mime type for `.launch` files. It should work with Ubuntu and most ROS versions.
 
 It is a fork of [this repository for ROS Hydro](https://github.com/TurtleBot-Mfg/ros-system-workstation-hydro). Credit belongs to them, I only changed the shortcuts to work with other ROS versions.
 
